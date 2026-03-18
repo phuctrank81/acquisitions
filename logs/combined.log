@@ -1,0 +1,5 @@
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2026-03-18T03:38:36.322Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:03:38:36 +0000] \"GET / HTTP/1.1\" 200 28 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-18T03:38:36.334Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:03:38:36 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-18T03:38:36.380Z"}
+{"level":"info","message":"Hello from Acquisitions API!","service":"acquisitions-api","timestamp":"2026-03-18T03:39:01.837Z"}
+{"level":"info","message":"::1 - - [18/Mar/2026:03:39:01 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36\"","service":"acquisitions-api","timestamp":"2026-03-18T03:39:01.840Z"}

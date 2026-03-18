@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "imports": {
+    "#config/*": "./src/config/*",
+    "#controller/*": "./src/controller/*",
+    "#middleware/*": "./src/middleware/*",
+    "#routes/*": "./src/routes/*",
+    "#services/*": "./src/services/*",
+    "#utils/*": "./src/utils/*",
+    "#validations/*": "./src/validations/*"
+  },
   "scripts": {
     "dev": "node --watch src/index.js",
     "lint": "eslint .",
@@ -12,7 +21,6 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:studio": "drizzle-kit studio"
-
   },
   "repository": {
     "type": "git",
@@ -28,13 +36,18 @@
   "homepage": "https://github.com/phuctrank81/acquisitions#readme",
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
     "dotenv": "^17.3.1",
     "drizzle-orm": "^0.45.1",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "morgan": "^1.10.1",
+    "winston": "^3.19.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "drizzle-kit": "^0.31.9",
+    "drizzle-kit": "^0.31.10",
     "eslint": "^10.0.3",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
